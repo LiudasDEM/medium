@@ -1,0 +1,28 @@
+{
+  "name": "medium",
+  "version": "1.0.0",
+  "description": "Full NodeJS web service application with ExpressJS",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiudasDEM/medium.git"
+  },
+  "keywords": [
+    "Medium",
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "author": "Liudas Demikis <liudas.demikis97@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiudasDEM/medium/issues"
+  },
+  "homepage": "https://github.com/LiudasDEM/medium#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
